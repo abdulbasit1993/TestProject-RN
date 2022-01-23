@@ -13,7 +13,7 @@ const App = () => {
         <Stack.Screen
           name="Flexbox"
           component={Flexbox}
-          options={{headerShown: false}}
+          options={{headerTitle: 'Flexbox Demo'}}
         />
         <Stack.Screen
           name="HomeScreen"
