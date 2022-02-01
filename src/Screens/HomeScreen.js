@@ -16,6 +16,12 @@ const HomeScreen = ({navigation}) => {
     <ScrollView contentContainerStyle={styles.container}>
       <View style={styles.menuItemView}>
         <TouchableOpacity
+          onPress={() => navigation.navigate('GoogleMapsScreen')}
+          style={styles.menuBtn}>
+          <Text style={styles.menuBtnText}>Google Maps Screen</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
           onPress={() => navigation.navigate('Flexbox')}
           style={styles.menuBtn}>
           <Text style={styles.menuBtnText}>Flexbox Demo</Text>
